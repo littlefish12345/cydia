@@ -1,0 +1,7 @@
+Origin: littlefish12345's jailbreak repo
+Label: littlefish12345's jailbreak repo
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Description: Some interesting things
