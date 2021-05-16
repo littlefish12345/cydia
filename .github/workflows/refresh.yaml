@@ -5,6 +5,7 @@ jobs:
     name: refresh Packages
     runs-on: ubuntu-20.04
     steps:
+      - uses: actions/checkout@v2
       - name: refresh Packages
         run: ./refresh_Packages.sh
       - name: push to github
