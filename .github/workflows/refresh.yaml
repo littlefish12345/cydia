@@ -1,0 +1,15 @@
+name: refresh Packages
+on: push
+jobs: 
+  refresh:
+    name: refresh Packages
+    runs-on: ubuntu-20.04
+    steps:
+      - name: refresh Packages
+        run: ./refresh_Packages
+      - name: push to github
+        uses: EndBug/add-and-commit@v7.0.0
+          with: 
+            author_name: littlefish12345
+            author_email: 18819303050@163.comm
+            message: refresh Packages
