@@ -1,0 +1,15 @@
+Package: org.openssl.openssl-dev
+Version: 1.1.1k
+Architecture: iphoneos-arm
+Maintainer: littlefish12345
+Filename: debs/OpenSSL-Dev-1.1.1k-iphoneos-arm.deb
+Size: 2062204
+MD5sum: cde1b6b246ddde8b7d096a63c538b722
+SHA1: 6111f77c42ce0bd9f68e0118b95313788084f1a8
+SHA256: 7d75420d06a5ed614280583c374f54bac55c56bfe84b43f16763e823c593bce8
+Section: Development
+Description: A precompiled OpenSSL static libraries and includes.
+Author: The OpenSSL Project
+Depiction: A precompiled OpenSSL static libraries and includes.
+Name: OpenSSL-Dev
+
