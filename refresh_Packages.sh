@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dpkg-scanpackages -m ./debs > Packages
-rm -rf Packages.bz2
+rm -rf Packages*
+dpkg-scanpackages --multiversion debs > Packages
 bzip2 Packages
-dpkg-scanpackages —m ./debs > Packages
+dpkg-scanpackages --multiversion debs > Packages
