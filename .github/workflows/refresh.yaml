@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: refresh Packages
-        run: ./refresh_Packages
+        run: ./refresh_Packages.sh
       - name: push to github
         uses: EndBug/add-and-commit@v7.0.0
         with: 
