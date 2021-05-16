@@ -13,15 +13,15 @@ Author: The OpenSSL Project
 Depiction: A precompiled OpenSSL static libraries and includes.
 Name: OpenSSL-Dev
 
-Package: sdk.iPhoneOS14.4
+Package: sdk.iphoneos14.4
 Version: 14.4
 Architecture: iphoneos-arm
 Maintainer: littlefish12345
 Filename: debs/iPhoneOS-sdk-14.4-iphoneos-arm.deb
-Size: 10554020
-MD5sum: cfd995fc711bc4b2d338a8076138dcf8
-SHA1: 9b37549bed3ca005c0d008381e3b343984fe537a
-SHA256: 70cafc1ede0bec22934cf2d1841cd9d86e4d299ef1da2813dea2e6955095b215
+Size: 10554022
+MD5sum: cc26ea9ef0d139b3e4d1c43450543616
+SHA1: a5071e491e50b2c86e428638016a0021a86be16c
+SHA256: 88c4a3f699d0b7ebaa22756db06893a4b2c1aaa93d86216ed4466924f7915b86
 Section: Development
 Description: iPhoneOS14.4 sdk
 Author: PoomSmart
