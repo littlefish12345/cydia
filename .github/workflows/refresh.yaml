@@ -9,7 +9,7 @@ jobs:
         run: ./refresh_Packages
       - name: push to github
         uses: EndBug/add-and-commit@v7.0.0
-          with: 
-            author_name: littlefish12345
-            author_email: 18819303050@163.comm
-            message: refresh Packages
+        with: 
+          author_name: littlefish12345
+          author_email: 18819303050@163.comm
+          message: refresh Packages
