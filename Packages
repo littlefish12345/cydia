@@ -1,30 +1,15 @@
-Package: org.openssl.openssl-dev
+Package: tk.littlefish12345.cydia.openssl-dev
 Version: 1.1.1k
 Architecture: iphoneos-arm
 Maintainer: littlefish12345
 Filename: debs/OpenSSL-Dev-1.1.1k-iphoneos-arm.deb
-Size: 2062204
-MD5sum: cde1b6b246ddde8b7d096a63c538b722
-SHA1: 6111f77c42ce0bd9f68e0118b95313788084f1a8
-SHA256: 7d75420d06a5ed614280583c374f54bac55c56bfe84b43f16763e823c593bce8
+Size: 2062212
+MD5sum: 470ad23fc757b8181823ae2ac08d4fd5
+SHA1: c5ece9e198ff9a219840cfa8c68f0b710e73b2be
+SHA256: 8aac4b1465f181e888a234a2df2f067192cf96c1161cb1e0681675ca39063041
 Section: Development
 Description: A precompiled OpenSSL static libraries and includes.
 Author: The OpenSSL Project
 Depiction: A precompiled OpenSSL static libraries and includes.
 Name: OpenSSL-Dev
-
-Package: sdk.iphoneos14.4
-Version: 14.4
-Architecture: iphoneos-arm
-Maintainer: littlefish12345
-Filename: debs/iPhoneOS-sdk-14.4-iphoneos-arm.deb
-Size: 10554022
-MD5sum: cc26ea9ef0d139b3e4d1c43450543616
-SHA1: a5071e491e50b2c86e428638016a0021a86be16c
-SHA256: 88c4a3f699d0b7ebaa22756db06893a4b2c1aaa93d86216ed4466924f7915b86
-Section: Development
-Description: iPhoneOS14.4 sdk
-Author: PoomSmart
-Depiction: iPhoneOS14.4 sdk
-Name: iPhoneOS14.4-sdk
 
