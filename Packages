@@ -1,3 +1,51 @@
+Package: libiosexec-dev
+Version: 1.0.16
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 24
+Depends: libiosexec1 (= 1.0.16)
+Filename: debs/libiosexec-dev_1.0.16_iphoneos-arm.deb
+Size: 10528
+MD5sum: 47f54e3bde40be8283c89fde170cf158
+SHA1: 0b8dfafb4a364de970d30f92bb1c769b90b9972c
+SHA256: 32a7763ef6c173c0923b23ec933857bedd8520f6177ad5704da2cf910654c053
+Section: Development
+Priority: optional
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Description: development files for libiosexec
+
+Package: libiosexec1
+Version: 1.0.16
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 68
+Filename: debs/libiosexec1_1.0.16_iphoneos-arm.deb
+Size: 4334
+MD5sum: 2e8bf71505ffe589b454f132dede1e98
+SHA1: 6c463810d775a58cdbbbaf89100a6a515dd106c8
+SHA256: ab5349d34111024d54bddb27d3e52cb35a0e00939e31aded81ed675dbc9b56b3
+Section: Libraries
+Priority: required
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Description: shim for execve w/ shell script support
+
+Package: tk.littlefish12345.cydia.golang
+Version: 1.16.4
+Architecture: iphoneos-arm
+Maintainer: littlefish12345
+Depends: libiosexec-dev
+Filename: debs/Golang_1.16.4_iphoneos-arm.deb
+Size: 102472052
+MD5sum: 4030e8c34d0003fb48a41145a67bf205
+SHA1: ccbe6e6e818d1c3f3fcb421595ecd5ef66ee86ac
+SHA256: 71fd14b7880e550d21ec93ab8741bf2ce6b73be08b221d8c3a89674192322f53
+Section: Development
+Description: A programming language.
+Author: The Golang Team
+Depiction: A programming language.
+Name: Golang
+
 Package: tk.littlefish12345.cydia.openssl-dev
 Version: 1.1.1k
 Architecture: iphoneos-arm
