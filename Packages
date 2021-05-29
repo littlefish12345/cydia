@@ -1,3 +1,89 @@
+Package: golang-1.16-go
+Version: 1.16.4
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 294632
+Depends: golang-1.16-src (>= 1.16.4), libiosexec1, clang
+Filename: debs/golang-1.16-go_1.16.4_iphoneos-arm.deb
+Size: 82130160
+MD5sum: 7dedba539de4c1f0cd769288d86f7860
+SHA1: 2285f89c91770845e12ef62d23f065367f77b33e
+SHA256: 09f28405c8ba6bc226b8f966f3839c0b5634be75a71989a11771e0b127d0f940
+Section: Development
+Priority: optional
+Homepage: https://golang.org
+Description: Go programming language compiler, linker, compiled stdlib
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This package provides an assembler, compiler, linker, and compiled libraries
+ for the Go programming language.
+ .
+ Go supports cross-compilation, but as of Go 1.5, it is no longer necessary to
+ pre-compile the standard library inside GOROOT for cross-compilation to work.
+
+Package: golang-1.16-src
+Version: 1.16.4
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 114868
+Depends: libiosexec-dev
+Filename: debs/golang-1.16-src_1.16.4_iphoneos-arm.deb
+Size: 20342980
+MD5sum: 862d4914be69db3a795c508eca64142c
+SHA1: dea04f64f728cf226553607812b85fdf5be77626
+SHA256: 3daab929bf0c44d5a21c7875969e11d025886f7287c719be4f44435a217891ff
+Section: Development
+Priority: optional
+Homepage: https://golang.org
+Description: Go programming language - source files
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This package provides the Go programming language source files needed for
+ cross-compilation.
+
+Package: golang-go
+Version: 1.16.4
+Architecture: all
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: golang-1.16-go (>= 1.16.4)
+Filename: debs/golang-go_1.16.4_all.deb
+Size: 1214
+MD5sum: b8ae793a58d06c999658a3701707d1e4
+SHA1: 5f974c45308a0ea536b7146d23793c31ae9eb142
+SHA256: 6ee00d45d602acd57164e3b8b3573c8ed42ea1f3020c14d8599c420ad6209117
+Section: Development
+Priority: optional
+Homepage: https://golang.org
+Description: Go programming language compiler, linker, compiled stdlib
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This is a dependency package that depends on the default Go toolchain and
+ compiled standard library. It is only built on architectures that have a
+ native toolchain ("gc compiler"). Packages that want to build with whichever
+ of gc or gccgo is available should depend on golang-any.
+
 Package: libiosexec-dev
 Version: 1.0.16
 Architecture: iphoneos-arm
@@ -6,9 +92,9 @@ Installed-Size: 24
 Depends: libiosexec1 (= 1.0.16)
 Filename: debs/libiosexec-dev_1.0.16_iphoneos-arm.deb
 Size: 10528
-MD5sum: 47f54e3bde40be8283c89fde170cf158
-SHA1: 0b8dfafb4a364de970d30f92bb1c769b90b9972c
-SHA256: 32a7763ef6c173c0923b23ec933857bedd8520f6177ad5704da2cf910654c053
+MD5sum: db4278d2488b5a4e87b9285be550d30f
+SHA1: 139e1cd8e0ae7508c4338d6d3b3addbb79f60104
+SHA256: f5c64b34a8a63ace6168b7462a217fa9be936aa1b1df9343a940acd178571817
 Section: Development
 Priority: optional
 Homepage: http://github.com/ProcursusTeam/libiosexec
@@ -21,30 +107,14 @@ Essential: yes
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 68
 Filename: debs/libiosexec1_1.0.16_iphoneos-arm.deb
-Size: 4334
-MD5sum: 2e8bf71505ffe589b454f132dede1e98
-SHA1: 6c463810d775a58cdbbbaf89100a6a515dd106c8
-SHA256: ab5349d34111024d54bddb27d3e52cb35a0e00939e31aded81ed675dbc9b56b3
+Size: 4276
+MD5sum: 06359cc518702b433fdd399fce10f459
+SHA1: e5ea1cf6f9d1108099a2433425f898b4537325fc
+SHA256: 175171e8984604415d4e3066d4435a4e6da3225ea776225723d47227f02af9d4
 Section: Libraries
 Priority: required
 Homepage: http://github.com/ProcursusTeam/libiosexec
 Description: shim for execve w/ shell script support
-
-Package: tk.littlefish12345.cydia.golang
-Version: 1.16.4
-Architecture: iphoneos-arm
-Maintainer: littlefish12345
-Depends: libiosexec-dev
-Filename: debs/Golang_1.16.4_iphoneos-arm.deb
-Size: 102472052
-MD5sum: 4030e8c34d0003fb48a41145a67bf205
-SHA1: ccbe6e6e818d1c3f3fcb421595ecd5ef66ee86ac
-SHA256: 71fd14b7880e550d21ec93ab8741bf2ce6b73be08b221d8c3a89674192322f53
-Section: Development
-Description: A programming language.
-Author: The Golang Team
-Depiction: A programming language.
-Name: Golang
 
 Package: tk.littlefish12345.cydia.openssl-dev
 Version: 1.1.1k
