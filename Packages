@@ -13,3 +13,18 @@ Author: The OpenSSL Project
 Depiction: A precompiled OpenSSL static libraries and includes.
 Name: OpenSSL-Dev
 
+Package: tk.littlefish12345.cydia.zstd
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: littlefish12345
+Filename: debs/Zstd-1.5.0-iphoneos-arm.deb
+Size: 1540104
+MD5sum: 2dd15e65d32c2fb42afe49973afe53e8
+SHA1: b9731abb21e6debeb29739f52c72413d4de27d81
+SHA256: f740146fb8a06b94d6b4baecf3e56d1caaf0f258911d490b7e9b44943e73a34c
+Section: Development
+Description: Zstd is a fast loseless compression algorithm.
+Author: Facebook
+Depiction: Zstd is a fast loseless compression algorithm.
+Name: Zstd
+
