@@ -18,10 +18,10 @@ Version: 1.5.0
 Architecture: iphoneos-arm
 Maintainer: littlefish12345
 Filename: debs/Zstd-1.5.0-iphoneos-arm.deb
-Size: 1540104
-MD5sum: 2dd15e65d32c2fb42afe49973afe53e8
-SHA1: b9731abb21e6debeb29739f52c72413d4de27d81
-SHA256: f740146fb8a06b94d6b4baecf3e56d1caaf0f258911d490b7e9b44943e73a34c
+Size: 1464948
+MD5sum: e6c3f2b4ae85ed2e477125690aded6eb
+SHA1: 094f0e49b8fc9c7d69bcc2175841f1dbe8989f0a
+SHA256: 8411b3fed44f3c25da90972baa76226720a92a105aba5edd0c142902812e7d9c
 Section: Development
 Description: Zstd is a fast loseless compression algorithm.
 Author: Facebook
