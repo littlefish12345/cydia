@@ -35,13 +35,13 @@ Architecture: iphoneos-arm
 Maintainer: littlefish12345
 Filename: debs/nginx-1.20.1-iphoneos-arm.deb
 Size: 346922
-MD5sum: 05910689c9e8f344f01d1d47a5acc505
-SHA1: 8836f9f801bc92cdf84654c730b0bc0de4c0cd2c
-SHA256: 681798782d29baa2924a354a644b4def10e3b7f6fd4bb09c88e7ebae9c5e627d
+MD5sum: 33ffcfcafee78612c3103abdc194bd09
+SHA1: e90220b49d79c9ec88823ddc3d53b6980050965a
+SHA256: 8131144be186bbfeeb08e339a49c1acbc0596b8c8c8621685206112c5b384bfd
 Section: Development
 Description: A simple http server.
 Author: The nginx Team
-Depiction: A simple http server
+Depiction: A simple http server.
 Name: nginx
 
 Package: tk.littlefish12345.cydia.openssl-dev
