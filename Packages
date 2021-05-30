@@ -1,3 +1,34 @@
+Package: tk.littlefish12345.cydia.framework.corefoundation
+Version: 14.4
+Architecture: iphoneos-arm
+Maintainer: littlefish12345
+Filename: debs/CoreFoundation.framework-14.4-phoneos-arm.deb
+Size: 137646
+MD5sum: ee6b83490db2d38e2c24089ca8757d11
+SHA1: a8590243b2ee60d522cc68f7321515e1c122e084
+SHA256: ef3b89e8889923915471752fb9535e8f1d6f044ac6da4e90a96a20187ba34e93
+Section: Development
+Description: A framework model which is requier by go.
+Author: Apple
+Depiction: A framework model which is requier by go.
+Name: CoreFoundation.framework
+
+Package: tk.littlefish12345.cydia.golang-1.15.7
+Version: 1.15.7
+Architecture: iphoneos-arm
+Maintainer: littlefish12345
+Depends: tk.littlefish12345.cydia.framework.corefoundation
+Filename: debs/Golang-1.15.7-1.15.7-iphoneos-arm.deb
+Size: 99746416
+MD5sum: 31d7aeeb691c369ab9ddbbbc19ddd4e0
+SHA1: 49c208c07e9dc09697c7e865e8f83e46eafb4914
+SHA256: 0bfd16090789f7f808621ea9cc51b5c9f9ad132999f8ce3eb87b5ed414f68390
+Section: Development
+Description: A programming language.
+Author: Hayden Seay
+Depiction: A programming language.
+Name: Clang-1.15.7
+
 Package: tk.littlefish12345.cydia.openssl-dev
 Version: 1.1.1k
 Architecture: iphoneos-arm
