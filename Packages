@@ -29,6 +29,21 @@ Author: Hayden Seay
 Depiction: A programming language.
 Name: Golang-1.15.7
 
+Package: tk.littlefish12345.cydia.nginx
+Version: 1.20.1
+Architecture: iphoneos-arm
+Maintainer: littlefish12345
+Filename: debs/nginx-1.20.1-iphoneos-arm.deb
+Size: 346922
+MD5sum: 05910689c9e8f344f01d1d47a5acc505
+SHA1: 8836f9f801bc92cdf84654c730b0bc0de4c0cd2c
+SHA256: 681798782d29baa2924a354a644b4def10e3b7f6fd4bb09c88e7ebae9c5e627d
+Section: Development
+Description: A simple http server.
+Author: The nginx Team
+Depiction: A simple http server
+Name: nginx
+
 Package: tk.littlefish12345.cydia.openssl-dev
 Version: 1.1.1k
 Architecture: iphoneos-arm
