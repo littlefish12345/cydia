@@ -20,14 +20,14 @@ Maintainer: littlefish12345
 Depends: tk.littlefish12345.cydia.framework.corefoundation, clang
 Filename: debs/Golang-1.15.7-1.15.7-iphoneos-arm.deb
 Size: 99746420
-MD5sum: a9d379709a2789b5f6a97a997bf851d1
-SHA1: 6f5685e44fd3c93e7928f98920f5e332efcfe1bd
-SHA256: 313ef9cf113fc543c9af22233e8b25e858954cc8b6f0f16514204e32246ab99a
+MD5sum: 95127eac7092f95146329d6f67bc988c
+SHA1: 683347f874f717d6b1f5a6214fb91f6df5084864
+SHA256: bd25c1f12128005120f701233fee64e5bc8f3fc6fcbee5bdb615672079e9b1f3
 Section: Development
 Description: A programming language.
 Author: Hayden Seay
 Depiction: A programming language.
-Name: Clang-1.15.7
+Name: Golang-1.15.7
 
 Package: tk.littlefish12345.cydia.openssl-dev
 Version: 1.1.1k
