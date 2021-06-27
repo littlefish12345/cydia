@@ -33,13 +33,12 @@ Version: 1.20.1
 Architecture: iphoneos-arm
 Maintainer: littlefish12345
 Filename: debs/nginx-1.20.1-iphoneos-arm.deb
-Size: 346922
-MD5sum: 33ffcfcafee78612c3103abdc194bd09
-SHA1: e90220b49d79c9ec88823ddc3d53b6980050965a
-SHA256: 8131144be186bbfeeb08e339a49c1acbc0596b8c8c8621685206112c5b384bfd
+Size: 346918
+MD5sum: 57e7c36e8ea24d17870d4c97e3739ea2
+SHA1: 21c8da4d9650f2d8343337f6dd90ac0228d021d5
+SHA256: 6c89226a2aff7b7b993f15c7cb09683db5e0707646bb48b4b463aaa0567c6501
 Section: Development
 Description: A simple http server.
-Author: The nginx Team
 Depiction: A simple http server.
 Name: nginx
 
