@@ -13,21 +13,20 @@ Author: Apple
 Depiction: A framework model which is requier by go.
 Name: CoreFoundation.framework
 
-Package: tk.littlefish12345.cydia.golang-1.15.7
+Package: tk.littlefish12345.cydia.golang
 Version: 1.15.7
 Architecture: iphoneos-arm
 Maintainer: littlefish12345
-Depends: tk.littlefish12345.cydia.framework.corefoundation, clang
-Filename: debs/Golang-1.15.7-1.15.7-iphoneos-arm.deb
-Size: 99746420
-MD5sum: 95127eac7092f95146329d6f67bc988c
-SHA1: 683347f874f717d6b1f5a6214fb91f6df5084864
-SHA256: bd25c1f12128005120f701233fee64e5bc8f3fc6fcbee5bdb615672079e9b1f3
+Depends: tk.littlefish12345.cydia.framework.corefoundation, clang, llvm
+Filename: debs/Golang-1.15.7-iphoneos-arm.deb
+Size: 99746406
+MD5sum: 886081a0399f7624562fcfb8f20f3974
+SHA1: 5ded2390194b8752898590eeaacc756c56918add
+SHA256: 69ad110003520050a32c032a195ddbf7e942c82027b5c11de02ee54d463f2195
 Section: Development
 Description: A programming language.
-Author: Hayden Seay
 Depiction: A programming language.
-Name: Golang-1.15.7
+Name: Golang
 
 Package: tk.littlefish12345.cydia.nginx
 Version: 1.20.1
